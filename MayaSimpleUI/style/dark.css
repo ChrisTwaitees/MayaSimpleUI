@@ -1,0 +1,59 @@
+QWidget::item:selected {
+	background: #3D7848;
+}
+QMenuBar {
+    background-color:#333;
+    border: 1px solid #ff8000;
+    alternate-background-color: #383838;
+    color: #CCC;
+}
+QWidget {
+    background-color:#333;
+    alternate-background-color: #383838;
+    color: #CCC;
+}
+QWidget::disabled {
+    color: #777;
+    background: #222;
+}
+
+QHeaderView::section {
+    background-color:#333;
+}
+
+QLineEdit {
+    border: 1px solid #000;
+    background: #444;
+}
+QLineEdit::disabled {
+    color: #777;
+    background: #222;
+}
+
+QMenuBar::item {
+    background-color:#333;
+}
+QMenuBar::item:selected, QMenu::item:selected {
+    background-color:#555;
+}
+
+QTabBar {
+	margin-left: 2px;
+}
+
+QTabBar::tab {
+	border-radius: 0px;
+	padding: 4px;
+	margin: 4px;
+}
+
+QTabBar::tab:selected {
+	background: #555;
+}
+
+
+QCheckBox:disabled {
+    color: #f9f9f9;
+    background-color: #333;
+
+}
